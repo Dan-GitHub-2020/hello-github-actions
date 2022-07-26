@@ -19,5 +19,5 @@ jobs:
                   subscriptionId: ${{ secrets.AZURE_SUBSCRIPTION }}
                   resourceGroupName: Bicep
                   template: ./main.bicep
-                  parameters: westeurope
+                  parameters: location=westeurope
                   failOnStdErr: false
